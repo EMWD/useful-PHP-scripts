@@ -13,7 +13,7 @@ $mail->isSMTP();                	         // Set mailer to use SMTP
 $mail->Host = 'smtp.timeweb.ru';  																							
 $mail->SMTPAuth = true;                          // Enable SMTP authentication
 $mail->Username = 'boss@ambassa.ru';		 // email name(FROM)
-$mail->Password = 'your password'; 		 // email password(FROM)
+$mail->Password = 'email password';     	 // email password(FROM)
 $mail->SMTPSecure = 'ssl';                       // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 465; 				 // TCP port to connect to / it may be different
 
