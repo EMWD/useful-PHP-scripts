@@ -4,10 +4,7 @@ require_once '../../lib/phpmailer/PHPMailerAutoload.php';
 
 $mail = new PHPMailer;
 $mail->CharSet = 'utf-8';
-$email = $_POST['email'];
-
-$user = R::findOne('users', 'email = ?', array($email));
-
+$email = 'user email';
 
 $mail->isSMTP();                	         // Set mailer to use SMTP
 $mail->Host = 'smtp.timeweb.ru';  																							
